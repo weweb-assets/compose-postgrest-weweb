@@ -25,10 +25,10 @@ services:
     restart: always
 
   ##################
-  # postgrest-demo #
+  # weweb-app #
   ##################
-  postgrest-demo:
-    container_name: postgrest-demo
+  weweb-app:
+    container_name: weweb-app
     image: nginx:mainline-alpine
     ports:
       - "80:80"
